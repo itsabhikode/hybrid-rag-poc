@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "src"
+version = "0.1.0"
+description = ""
+authors = ["akarna772 <akarna772@gmail.com>"]
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.116.1"
+hypercorn = "^0.17.3"
+pydantic-settings = "^2.10.1"
+alembic = "^1.16.5"
+psycopg2-binary = "^2.9.10"
+python-multipart = "^0.0.20"
+requests = "^2.31.0"
+pyjwt = "^2.8.0"
+# PDF parsing dependencies - using only PyMuPDF4LLM
+pymupdf = "^1.24.0"
+pymupdf4llm = "^0.0.27"
+qdrant-client = "^1.15.1"
+sentence-transformers = "^5.1.1"
+neo4j = "^5.28.2"
+pandas = "^2.3.2"
+langgraph = "^0.6.7"
+langchain-core = "^0.3.27"
+uvicorn = "^0.36.0"
+spacy = "^3.7.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
